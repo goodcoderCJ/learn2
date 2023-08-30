@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("./images/IMG-20230817-WA0014.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+figure {
+  border: 2px solid brown;
+}
+.flex-child {
+  width: 24vw;
+  height: 35vh;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background-color: white;
+}
+.flex-child img {
+  width: 24vw;
+  height: 26vh;
+}
